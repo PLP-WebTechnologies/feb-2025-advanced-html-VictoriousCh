@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced HTML5 Elements and Forms</title>
+  <!-- You can add external CSS here if needed -->
+</head>
+<body>
+  <header>
+    <h1>Advanced HTML5 Elements and Forms</h1>
+  </header>
+
+  <main>
+    <!-- Ordered List with Roman Numerals -->
+    <section id="ordered-list">
+      <h2>Ordered List</h2>
+      <ol type="I">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+      </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section id="external-image">
+      <h2>External Image</h2>
+      <!-- Using a sample image URL from Pexels -->
+      <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" alt="Sample scenery" width="500">
+    </section>
+
+    <!-- Table of 5 Contacts -->
+    <section id="contacts-table">
+      <h2>Contacts Table</h2>
+      <table border="1" cellspacing="0" cellpadding="8">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John Doe</td>
+            <td>123 Main St, Cityville</td>
+            <td>123-456-7890</td>
+            <td>john.doe@example.com</td>
+          </tr>
+          <tr>
+            <td>Jane Smith</td>
+            <td>456 Oak Ave, Townsville</td>
+            <td>234-567-8901</td>
+            <td>jane.smith@example.com</td>
+          </tr>
+          <tr>
+            <td>Robert Brown</td>
+            <td>789 Pine Rd, Village</td>
+            <td>345-678-9012</td>
+            <td>robert.brown@example.com</td>
+          </tr>
+          <tr>
+            <td>Emily White</td>
+            <td>321 Cedar Blvd, Metropolis</td>
+            <td>456-789-0123</td>
+            <td>emily.white@example.com</td>
+          </tr>
+          <tr>
+            <td>Michael Green</td>
+            <td>654 Spruce Ln, Hamlet</td>
+            <td>567-890-1234</td>
+            <td>michael.green@example.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section id="registration-form">
+      <h2>Registration Form</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Register Here</legend>
+          
+          <!-- Name Field -->
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          </div>
+
+          <!-- Email Field -->
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+
+          <!-- Password Field -->
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="6">
+          </div>
+
+          <!-- Date Field -->
+          <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+          </div>
+
+          <!-- Dropdown Selection -->
+          <div>
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+              <option value="">Select your country</option>
+              <option value="usa">USA</option>
+              <option value="canada">Canada</option>
+              <option value="uk">UK</option>
+            </select>
+          </div>
+
+          <!-- Radio Buttons -->
+          <div>
+            <p>Gender:</p>
+            <label>
+              <input type="radio" name="gender" value="male" required> Male
+            </label>
+            <label>
+              <input type="radio" name="gender" value="female"> Female
+            </label>
+            <label>
+              <input type="radio" name="gender" value="other"> Other
+            </label>
+          </div>
+
+          <!-- Checkboxes -->
+          <div>
+            <p>Interests:</p>
+            <label>
+              <input type="checkbox" name="interests" value="coding"> Coding
+            </label>
+            <label>
+              <input type="checkbox" name="interests" value="music"> Music
+            </label>
+            <label>
+              <input type="checkbox" name="interests" value="sports"> Sports
+            </label>
+          </div>
+
+          <!-- Submit Button -->
+          <div>
+            <button type="submit">Register</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+
+    <!-- Multimedia Elements: Audio and Video -->
+    <section id="multimedia">
+      <h2>Multimedia</h2>
+      <div>
+        <h3>Audio Example</h3>
+        <audio controls>
+          <source src="audio/sample.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <div>
+        <h3>Video Example</h3>
+        <video width="320" height="240" controls>
+          <source src="video/sample.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Advanced HTML5 Elements and Forms</p>
+  </footer>
+</body>
+</html>
